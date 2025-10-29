@@ -14,6 +14,18 @@
             "id":3,
             "name":"manoj kumar",
             "email":"manojkumar@gmail.com"
+        },{
+            "id":4,
+            "name":"sachin tendulkar",
+            "email":"sachintendu@gmail.com"
+        },{
+            "id":5,
+            "name":"virat kohli",
+            "email":"kohli@gmail.com"
+        },{
+            "id":6,
+            "name":"classy rahul",
+            "email":"nameisrahul@gmail.com"
         }
         ]
     }

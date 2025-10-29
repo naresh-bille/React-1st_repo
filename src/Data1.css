@@ -1,0 +1,40 @@
+/* Container that holds all the boxes */
+.data-container {
+  display: flex;
+  flex-direction: column;        /* stack boxes one below another */
+  align-items: center;           /* center boxes horizontally */
+  justify-content: center;       /* center them vertically if screen height allows */
+  gap: 20px;                     /* spacing between boxes */
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+}
+
+/* Each box (adjusts size automatically based on content) */
+.data-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px 40px;            /* more padding for better visuals */
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: fit-content;            /* 👈 adjusts size based on content */
+  max-width: 90%;                /* prevent overflow on small screens */
+}
+
+/* Hover effect */
+.data-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Text styling */
+.data-card p {
+  margin: 8px 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+strong {
+  color: #00796b;
+}

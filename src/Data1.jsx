@@ -1,8 +1,8 @@
 
-import Data from "../assets/Data.json";
-
+import Data from "./assets/Data.json";
+import './Data1.css'
 function Data1() {
-    console.log(Data);
+   
   return (
     <div className="data-container">
       
